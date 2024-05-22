@@ -1,0 +1,68 @@
+#footer {
+  background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+  background-color: #0a192f;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  padding: 70px 10px 30px;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 500;
+}
+
+.supportingText {
+  font-size: 1.5em;
+  padding-top: 30px;
+}
+
+.contentBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 40px;
+}
+
+hr {
+  border-top: 3px solid white;
+  margin: 28px auto;
+  width: 50%;
+}
+
+.color-white {
+  color: white;
+}
+
+#footer a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  #footer .box {
+    padding: 10px;
+    font-size: 2em;
+    margin: 5px;
+  }
+
+  .supportingText {
+    font-size: 1.2rem;
+  }
+
+  .contentBox {
+    gap: 0;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+}
