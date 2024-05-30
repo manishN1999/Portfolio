@@ -139,59 +139,26 @@ img {
 }
 
 /* Typewriter effect */
-@keyframes typing {
-  0.0000%,
-  27.3488% {
-    content: "";
-  }
-  1.1395%,
-  26.2093% {
-    content: "S";
-  }
-  2.2791%,
-  25.0698% {
-    content: "S Ma";
-  }
-  3.4186%,
-  23.9302% {
-    content: "S Man";
-  }
-  4.5581%,
-  22.7907% {
-    content: "S Mani";
-  }
-  5.6977%,
-  21.6512% {
-    content: "S Manis";
-  }
-  6.8372%,
-  20.5116% {
-    content: "S Manish";
-  }
-  7.9767%,
-  19.3721% {
-    content: "N";
-  }
-  9.1163%,
-  18.2326% {
-    content: "Na";
-  }
-  10.2558%,
-  17.0930% {
-    content: "Nair";
-  }
+.h1 span {
+  color: transparent;
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
 }
 
-@keyframes blink {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
+.h1 span::before {
+  content: "S Manish Nair";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 3px solid #956afa;
+  overflow: hidden;
+  color: black;
+  animation: text3-animation 2s linear infinite;
 }
-
 .typewriter {
   --caret: currentcolor;
 }
