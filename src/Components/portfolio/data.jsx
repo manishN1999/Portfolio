@@ -38,7 +38,6 @@ export const projectsData = [
     title: "Pintrest",
     image: Image9,
     Live:"https://pinterest-cs3q.onrender.com",
-    Text:"Try to reload several times",
   },
 ];
 
