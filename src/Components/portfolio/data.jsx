@@ -2,7 +2,7 @@ import Image2 from "./projects/image2.png";
 import Image3 from "./projects/image3.png";
 // import Image1 from "./projects/image1.png";
 // import Image4 from "./projects/image4.png";
-// import Image5 from "./projects/image5.png";
+import Image5 from "./projects/image5.png";
 // import Image6 from "./projects/image6.png";
 // import Image8 from "./projects/image8.png";
 import Image9 from "./projects/image9.png";
@@ -38,6 +38,14 @@ export const projectsData = [
     title: "Pintrest",
     image: Image9,
     Live:"https://pinterest-cs3q.onrender.com",
+  },
+
+  {
+    id: 5,
+    category: "react",
+    title: "Role Based Access Control",
+    image: Image5,
+    Live:"https://rbac-ui-sigma.vercel.app/",
   },
 ];
 
